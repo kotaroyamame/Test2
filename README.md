@@ -44,13 +44,13 @@ M<sub>0</sub><br>
 t<sub>0,0</sub> ...  t<sub>0,M<sub>0</sub>-1 </sub><br>
 ︙<br>
 M<sub>N-1</sub><br>
-t<sub>N-1,0</sub> ... t<sub>N-1,M<sub>(M-1)-1</sub></sub><br> 
+t<sub>N-1,0</sub> ... t<sub>N-1,M<sub>N-1</sub>-1</sub><br> 
 P<br>
 Q<sub>0</sub><br>
 T<sub>0</sub> I<sub>0</sub> g<sub>0,0</sub> ... g<sub>0,Q<sub>0</sub>-1</sub><br>
 ︙<br>
 Q<sub>P-1</sub><br>
-T<sub>P-1</sub> I<sub>P-1</sub> g<sub>P-1,0</sub> ... g<sub>P-1,Q<sub>(P-1)-1</sub></sub><br>
+T<sub>P-1</sub> I<sub>P-1</sub> g<sub>P-1,0</sub> ... g<sub>P-1,Q<sub>P-1</sub>-1</sub><br>
 
 ##　入力例1
 ```
