@@ -36,6 +36,7 @@ M≤1000
 
 
 N  
+M  
 a<sub>1</sub> a<sub>2</sub> a<sub>3</sub> a<sub>4</sub>  
 ta1 ta1 ta1  
 ta2 ta2 ta2 ta2 ta2 ta2  
@@ -47,7 +48,8 @@ tg l t t t t
 
 ##　入力例1
 ```
-4
+4  
+11  
 0 1 2 3
 1 2 3 8
 1 5 0 3 9
@@ -146,6 +148,7 @@ tg l t t t t
 ##　入力例2
 ```
 3
+3  
 0 1 2 
 0 1 2 3
 0 1 2 3
