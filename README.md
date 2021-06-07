@@ -29,32 +29,36 @@ interface T{
 ## 制約
 
 
-1≤N≤100   
-1≤M≤1000  
+1≤I≤P≤N≤100   
+1≤M<sub>i</sub>≤1000  
+![texclip20210607195510](https://user-images.githubusercontent.com/13118113/121005013-4e8b3800-c7ca-11eb-9aca-072b18691a82.png)    
+1≤T<sub>i</sub>≤500  
+1≤t<sub>i,j</sub>,g<sub>k,l</sub><1000  
 
 ## フォーマット
 
 
 N  
-M  
 a<sub>1</sub> a<sub>2</sub> ... a<sub>N</sub>   
-M1  
-ta1 ta1  ...  
-M2  
-ta2 ta2  ...  
-...  
-Mi  
-taN taN  ...     
-M1  
-tg1 l t t  ...  
-M2  
-tg2 l t t  ...  
-...   
+M<sub>0</sub>  
+t<sub>0,0</sub> ...  t<sub>0,M<sub>0</sub>-1 </sub>  
+.  
+.  
+.  
+M<sub>N-1</sub>   
+t<sub>N-1,0</sub> ... t<sub>N-1,M<sub>M-1</sub>-1</sub>   
+P  
+Q<sub>0</sub>  
+T<sub>0</sub> I<sub>0</sub> g<sub>0,0</sub> ... g<sub>0,Q<sub>0</sub>-1</sub>   
+.  
+.  
+.  
+Q<sub>P-1</sub>   
+T<sub>P-1</sub> I<sub>P-1</sub> g<sub>P-1,0</sub> ... g<sub>P-1,Q<sub>P-1</sub>-1</sub>   
 
 ##　入力例1
 ```
-4  
-11  
+4    
 0 1 2 3
 4
 1 2 3 8
@@ -130,8 +134,7 @@ tg2 l t t  ...
 
 ##　入力例2
 ```
-3
-3  
+3 
 0 1 2 
 4  
 0 1 2 3
