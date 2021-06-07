@@ -26,25 +26,25 @@ interface T{
   }
 }
 ```
-## 成約
+## 制約
 
 
-N≤100   
-M≤1000  
+1≤N≤100   
+1≤M≤1000  
 
 ## フォーマット
 
 
 N  
 M  
-a<sub>1</sub> a<sub>2</sub> a<sub>3</sub> a<sub>4</sub>  
-ta1 ta1 ta1  
-ta2 ta2 ta2 ta2 ta2 ta2  
-ta3 ta3 ta3 ta3 ta3  
-ta4 ta4 ta4 ta4  
-tg l t t t t  
-tg l t t t t  
-tg l t t t t  
+a<sub>1</sub> a<sub>2</sub> ... a<sub>N</sub>   
+ta1 ta1  ...  
+ta2 ta2  ...  
+ta3 ta3  ...  
+ta4 ta4  ...   
+tg1 l t t  ...  
+tg2 l t t  ...  
+...  
 
 ##　入力例1
 ```
@@ -92,7 +92,7 @@ tg l t t t t
         "tg":2,
         "t":[8,10],
         "a":[0,3]
-        "nex":{
+        "next":{
          8:{
           "a":[0]
          },
