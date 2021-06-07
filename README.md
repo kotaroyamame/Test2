@@ -42,17 +42,13 @@ N
 a<sub>1</sub> a<sub>2</sub> ... a<sub>N</sub>   
 M<sub>0</sub>  
 t<sub>0,0</sub> ...  t<sub>0,M<sub>0</sub>-1 </sub>  
-.  
-.  
-.  
+︙　　  
 M<sub>N-1</sub>   
 t<sub>N-1,0</sub> ... t<sub>N-1,M<sub>M-1</sub>-1</sub>   
 P  
 Q<sub>0</sub>  
 T<sub>0</sub> I<sub>0</sub> g<sub>0,0</sub> ... g<sub>0,Q<sub>0</sub>-1</sub>   
-.  
-.  
-.  
+︙　　　 
 Q<sub>P-1</sub>   
 T<sub>P-1</sub> I<sub>P-1</sub> g<sub>P-1,0</sub> ... g<sub>P-1,Q<sub>P-1</sub>-1</sub>   
 
