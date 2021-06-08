@@ -22,7 +22,7 @@ interface Tree{
   a: Array<number>,
   //選択されたタグIDに対しての次のT
   next:{
-    [key:ti]:T
+    [key:string]:Tree
   }
 }
 ```
