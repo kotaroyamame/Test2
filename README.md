@@ -11,7 +11,7 @@
 タググループTiは、優先順位l(自然数)を持ちます。
 タググループの優先順位順にタグを選択して回答を絞り込むツリー構造のJSON文字列Treeを生成してください。
 
-JSONの構造は以下のとおりです。
+JSONの元になるオブジェクトの構造は以下のとおりです。
 ```
 interface Tree{
   //タググループID
@@ -22,7 +22,7 @@ interface Tree{
   a: Array<number>,
   //選択されたタグIDに対しての次のT
   next:{
-    [key:string]:Tree
+    [t:number]:Tree
   }
 }
 ```
