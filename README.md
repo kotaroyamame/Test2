@@ -58,7 +58,7 @@ T<sub>P-1</sub> I<sub>P-1</sub> g<sub>P-1,0</sub> ... g<sub>P-1,Q<sub>P-1</sub>-
 0 1 2 3
 4
 1 2 3 8
-5
+4
 1 0 3 9
 5
 6 4 7 2 10
